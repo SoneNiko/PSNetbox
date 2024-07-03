@@ -1,0 +1,21 @@
+# NestedVirtualMachineRequest
+## Properties
+
+Name | Type | Description | Notes
+------------ | ------------- | ------------- | -------------
+**Name** | **String** |  | 
+
+## Examples
+
+- Prepare the resource
+```powershell
+$NestedVirtualMachineRequest = Initialize-PSOpenAPIToolsNestedVirtualMachineRequest  -Name null
+```
+
+- Convert the resource to JSON
+```powershell
+$NestedVirtualMachineRequest | ConvertTo-JSON
+```
+
+[[Back to Model list]](../README.md#documentation-for-models) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to README]](../README.md)
+

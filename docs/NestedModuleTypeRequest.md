@@ -1,0 +1,21 @@
+# NestedModuleTypeRequest
+## Properties
+
+Name | Type | Description | Notes
+------------ | ------------- | ------------- | -------------
+**Model** | **String** |  | 
+
+## Examples
+
+- Prepare the resource
+```powershell
+$NestedModuleTypeRequest = Initialize-PSOpenAPIToolsNestedModuleTypeRequest  -Model null
+```
+
+- Convert the resource to JSON
+```powershell
+$NestedModuleTypeRequest | ConvertTo-JSON
+```
+
+[[Back to Model list]](../README.md#documentation-for-models) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to README]](../README.md)
+
